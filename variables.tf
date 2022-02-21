@@ -17,7 +17,7 @@ variable "resource_group" {
 variable "default_location" {
   type        = string
   description = "Locatie setata pentru toate resursele"
-  default     = "__location__"
+  default     = "west europe"
     validation {
     #condition = var.default_location == "west europe"
     condition = contains(["west europe"], var.default_location)
@@ -64,12 +64,12 @@ variable "default_tags" {
   }
   variable "db_username" {
     type = string
-    sensitive =true
+    default = "__username__"
 
   }
   variable "db_password" {
     type = string
-    sensitive = true
+    default = "__password__"
   }
 
   variable "db_storage"{
