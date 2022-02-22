@@ -10,3 +10,4 @@ Creating Azure Infrastructure using terraform and Azure Devops Pipelines
 I pushed all configuration files in Azure Devops:
 
 
+![image](https://user-images.githubusercontent.com/44494776/155142259-51d3f8b9-65bb-4ad8-9567-e472b7d73697.png)
