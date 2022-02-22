@@ -18,3 +18,10 @@ I created a CI pipeline to copy all terraform files to artifact:
 
 Build a Release Pipeline using the artifact created previously
 ![image](https://user-images.githubusercontent.com/44494776/155143127-7b293d5a-32a2-4f40-91b7-45dc358e5329.png)
+
+Add all terraform steps for deployment:
+![image](https://user-images.githubusercontent.com/44494776/155143463-16fcefe6-e91f-4586-b3e6-cc838db8a02c.png)
+
+
+Check azure infra:
+![image](https://user-images.githubusercontent.com/44494776/155143514-a15eb637-4f3a-48dc-949d-0b4ed9aa19d7.png)
